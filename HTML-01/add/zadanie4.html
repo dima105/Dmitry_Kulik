@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="utf-8">
+  <title>Пример страницы</title>
+  <style>
+    .text {
+      text-align: center;
+    }
+
+    .layer {
+      padding-left: 4%;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Заголовок первого уровня</h1>
+  <h3>Предварительно форматированный текст:</h3>
+ <p> x | o |<br>
+  ‐‐‐‐‐‐‐‐‐‐‐<br>
+  &thinsp;&thinsp;&thinsp;&thinsp;| х |<br>
+  ‐‐‐‐‐‐‐‐‐‐‐<br>
+  o | x | o <br></p>
+  <hr style="border-width: 2px;">
+  <h3>Тег address</h3>
+  <address>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.2686911</address>
+  <hr style="border-width: 2px;">
+  <h3>Семантические и функциональные строчные теги</h3>
+  <p>Пожелания автора:<br></p>
+  <s><span style="color:#FF0000">Данный текст
+      убрать из монографии</span></s> и заменить его на <u><span style="color:#3300CC">вновь помещённый текст.</span></u>
+  <hr style="border-width: 2px;">
+  <h3>Работа со строчными и блоковыми цитатами</h3>
+  <p>Цитата короткая:<br></p>
+  <i>И всё-таки она вертится!<br></i>
+  <p>Цитата занимающая несколько предложений:<br></p>
+  <div class="layer">
+    <p>О сколько нам открытий чудных<br>
+      Готовят просвещенья дух<br>
+      И опыт, сын ошибок трудных,<br>
+      И гений, парадоксов друг,<br>
+      И случай, бог изобретатель...</p>
+  </div>
+  <hr style="border-width: 2px;">
+  <h3>Семантические и функциональные строчные теги</h3>
+  <p><b>Тэг &lt;STRONG&gt; делает данный фрагмент текста более важным.</b><i> Тэг &lt;em&gt;менее важным.</i>
+  В то время как теги &lt;b&gt; и &lt;i&gt; делают текст просто <b>полужирным</b> и <i>курсивом</i> соответственно.</p>
+  <hr style="border-width: 2px;">
+  <h3>Теги форматирования машинного языка</h3>
+ <p> При выполнении программного кода на языке PERL:</p>
+  <p><code>#!/usr/local/bin/perl<br>
+      print "Content‐type: text/html\n\n";<br>
+      print "&lt;H1&gt;Hello World &lt;/H1&gt;\n";</code></p>
+<p>Программа выведет:<br></p>
+  <p> <code>Hello, World!<br></code></p>
+  <p>Однако в браузере у нас будет отображаться результат выполнения этой программы:</p>
+  <h1>Hello, World!</h1>
+  <hr style="border-width: 2px;">
+
+  <h3>Комментарии и литералы(мнемоники) в HTML</h3>
+  <code> &lt;!‐‐ это комментарий ‐‐&gt;<br>
+  
+      <span class="layer">&lt;!‐‐ и это также комментарий,<br> занимающий более одной строки ‐‐&gt;</span>
+  
+  </code>
+  <hr style="border-width: 2px;">
+  <h3>Теги над­ и подстрочных символов</h3>
+  <div class="text"><b>Магазин работает:</b><br>
+    c 08<u><sup>30</sup></u> до 18<u><sup>30</sup></u><br>
+    обед с 13<u><sup>00</sup></u> до 14<u><sup>00</sup></u><br>
+    выходной: <u>суббота</u>,<u> воскресенье</u></div>
+  <hr style="border-width: 2px;">
+  <h3>Вот такой текст</h3>
+  <b>Э o &thinsp;р с о &thinsp;е ё ы &thinsp;т к т<br>
+    &ensp;т &thinsp;п о т &thinsp;в с л й&thinsp; е с
+  </b>
+  <hr style="border-width: 2px;">
+  <h3>Акроним и курсив</h3>
+  <p>ТФ: Y(x)=e<sup>iπx</sup>+log<sub>x</sub>4</p>
+  <hr style="border-width: 2px;">
+  <h3>Тег small внтури абзаца</h3>
+  <p align="right"> Создано при помощи блокнота©</p>
+</body>
+
+</html>
