@@ -131,7 +131,7 @@
                 <form name="validation" action="http://fe.it-academy.by/TestForm.php" method="POST">
                     <fieldset id="fs8">
                         <legend> Строка поиска</legend>
-                        <input pattern="[/u0400-/u04FF]" required name="name" id="CyrillicName"  placeholder="Только русские буквы"><br>
+                        <input pattern="[\u0400-\u04ff]+" required name="name" id="CyrillicName"  placeholder="Только русские буквы"><br>
                         <input type="tel" pattern="[+]{1}[0-9]{3}-[0-9]{2}-[0-9]{7}" name="number" id="number" placeholder="+375-29-12234567"><br>
                         <input type="Submit" value="Проверить" >
                     </fieldset>
