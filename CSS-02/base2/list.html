@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<style>
+body{
+    font-size: 16 px;
+}
+ul.list1 {
+    width: 350ps;
+    list-style: upper-roman;
+    font-weight: bold;
+}
+ul.list2 {
+    list-style: lower-roman;
+    font-weight: normal;
+}
+.codeblock{
+    background-color: black;
+    color: green;
+    width: 400px;
+    max-height: 4em;
+    line-height:1em;
+    overflow: auto;
+}
+</style>
+<body>
+<ul class="list1">
+    <li>I.Контейнер с кодом
+        <ul class="list2">
+            <li>Цвет фона: чёрный</li>
+            <li>Цвет текста: зелёный</li>
+            <li>Ширина: 400 px</li>
+            <li>Максимальная высота контейнера: 4-е строки</li>
+            <li>Переполнение: автоматическое</li>
+        </ul>
+    </li>
+    <li>Cписок
+        <ul class="list2"></ul>
+            <li>Ширина: 350рх</li>
+            <li>Тип текста римские цифры</li>
+            <li>Тип вложенного списка: римские нижний регистр цифры</li>
+        </ul>
+    </li>
+</ul>
+<div class="codeblock">
+    <pre> 
+    #!/usr/bin/env python
+    print 'Hello. I am a python program.'
+    name = raw_input("What is your name?")
+    print "Hello there, " + name + "!"
+    </pre>
+</div>
+</body>
+</html>
