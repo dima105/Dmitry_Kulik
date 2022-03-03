@@ -1,0 +1,27 @@
+.menu1{
+    position: relative;
+    display: inline-block;
+}
+.menu2{
+    overflow: hidden;
+    height: 0;
+    position: absolute;
+}
+button{
+    width: 95px;
+}
+.menu1:hover .menu2{
+    overflow: hidden;
+    height : 65px;
+    transition: height 0,3s ;
+}
+@media all and (max-width:705px){
+    body{
+        display: table-caption;
+    }
+    .menu2{
+        position:fixed;
+        margin-left: 100px;
+        margin-top:-20px;
+    }
+}

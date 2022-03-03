@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    float: right;
+     width: 100px;
+}
+.l1{display: flex;
+    background-color: rgb(224, 175, 236);
+   align-items: flex-start;
+ 
+}
+.l2{
+   background-color: blueviolet;
+   min-width: 15em;
+   max-width: 15em;
+   padding: 2px;
+   margin-bottom: 2px;
+}
+.l3{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+.l4{
+    background: rgb(189,148,228);
+    margin-bottom: 2px;
+}
+.l5{
+    background-color: rgb(111, 36, 180);
+    padding-bottom: 2px;
+   
+}

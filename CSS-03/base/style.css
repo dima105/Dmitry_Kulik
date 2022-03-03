@@ -1,0 +1,26 @@
+.menu1{
+    position: relative;
+    display: inline-block;
+}
+.menu2{
+    display: none;
+    height: 100px;
+    position: absolute;
+}
+button{
+    width: 100px;
+}
+.menu1:hover .menu2{
+    display:block;
+    width: 100px;
+}
+@media all and (max-width:700px){
+    body{
+        display: table-caption;
+    }
+    .menu2{
+        position:fixed;
+        margin-left: 100px;
+        margin-top:-20px;
+    }
+}
