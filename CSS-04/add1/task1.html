@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            border: 1px solid;
+            border-color: black;
+            border-radius: 0px 15px 0px 15px;
+            padding: 5px;
+        }
+        p::first-letter{
+            margin-left: 20px;
+        }
+        .link .file{
+            display: none;
+        }
+        a[href$='.document']::before {
+            content:url('word.jpg')
+        }
+        a[href$='.pdf']::before {
+            content:url('pdf.png')
+        }
+        a[href$='.zip']::before {
+            content:url('zip.gif')
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Форматы файлов.
+    </h1>
+    <table>
+      <tr><td> <p> .Doc или .doc (от англ.<img src="document.png" alt="document"><a href="#">document</a>)-расширение имени файла, используемое для файлов, представляющих текст, с разметкой или без.Расширение .DOC часто использовалось для обозначения простых текстовых файлов без формирования, однако позже стало использоваться для двоичных форматов с разметкой.</p>
+    <a href="#">Документ MS Word</a>
+    <img src="word.jpg" alt="document">
+   </td></tr>
+       <tr><td> <p> Portable Document Format(<img src="document.png" alt="document"><a href="#">PDF</a>)-межплатформенный формат электронных документов, разработанный фирмой Adobe Systems с использованием ряда возможностей языка Postscript.</p>
+    <a href="#">Документ PDF</a>
+    <img src="pdf.png" alt="document">
+</td></tr>
+        <td> <p> ZIP- популярный фрмат сжатия данных и архивации файлов.Файл в этом формате обычно имеет расширение <img src="document.png" alt="document"><a href="#">zip</a> и хранит в сжатом или несжатом виде один или несколько файлов, которое можно из него извлечь путём распаковки с помощью специальной программы.</p>
+        <a href="#">Архив</a>
+        <img src="zip.gif" alt="document">
+    </td></tr>
+    </table>
+        <h2>
+           Это список файлов
+        </h2>
+        <div class=".link-word"><img src="list.jpg" ><a class="file" href="#">Документ MS Word</a><div>
+        <div class=".link-pdf"><img src="list.jpg" ><a class="file" href="#">Документ PDF</a><div>
+        <div class=".link-zip"><img src="list.jpg" ><a class="file" href="#">Архив</a></div>
+</body>
+</html>
